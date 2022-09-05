@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Bloc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap JS file Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- CSS styles -->
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #ecd6c0;
+        }
+
+        .btn {
+            color: black;
+            font-weight:bolder;
+            background-color: #d2bead;
+            border: none;
+            box-shadow: 2px 2px 2px #ccc;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .bg {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .image-me{
+            margin-bottom: 18px;
+        }
+
+    </style>
+
+    <!-- HTML content -->
+    <div class="container-xl">
+        <main>
+            <div class="main-title bg-dark mt-4 text-light text-center p-1">
+                <h2 class="fw-bold">Mi Blog de Experiencias Vitales</h2>
+            </div>
+            <div class="bg container-fluid shadow">
+                <div class="row">
+                    <div class="content col-md-4">
+                        <img class="img-bass img-fluid rounded-3 mt-2 shadow" src="../images/bajo.jpg" alt="Bass Image">
+                        <h4 class="text-center fw-bold mt-3 text-decoration-underline">Mis Hobbies</h4>
+                        <p class="text-center">En esta sección podrás leer acerca de mis hobbies.</p>
+                        <div class="text-center">
+                            <a href="./hobbies.html" target="ifDetails" class="btn btn-primary">Saber más</a>                        
+                        </div>
+                    </div>
+                    <div class="content col-md-4 text-center">
+                        <img class="image-me img-fluid rounded-3 mt-2 shadow" src="../images/me01.jpg" alt="It's me">
+                        <h4 class="text-center fw-bold text-decoration-underline ">Acerca de mi</h4>
+                        <p class="text-center">Una breve explicación de mi vida y de mis gustos personales.</p>
+                        <div class="text-center">
+                            <a href="./me.html" target="ifDetails"  class="btn btn-primary mb-3">Saber más</a>                        
+                        </div>
+                    </div>
+                    <div class="content col-md-4">
+                        <img class="img-biblia img-fluid rounded-3 mt-2 shadow" src="../images/biblia.jpg" alt="biblia Image">
+                        <h4 class="text-center fw-bold mt-3 text-decoration-underline">Mi experiencia en la lectura</h4>
+                        <p class="text-center">Un lugar especial donde explico mi experiencia que he desarrollado con la lectura y las cosas nuevas que he arpendido gracias a ella.</p>
+                        <div class="text-center">
+                            <a href="./lectura.html" target="ifDetails" class="btn btn-primary">Saber más</a>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="bg-dark text-center p-2 shadow">
+                <span class="text-light">Elaborado por Daniel Cuevas Botero - Ingeniería de Multimedia</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
